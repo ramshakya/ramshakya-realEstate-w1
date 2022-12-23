@@ -1,0 +1,629 @@
+.mapHeadersRow .form-control {
+	padding: 0.46rem 0.75rem !important;
+	border-radius: 0px !important;
+}
+
+.mapHeadersRow .custom-button-red {
+	border-radius: 0px !important;
+	/*padding-bottom: 7px;*/
+}
+
+.mapHeadersRow button.form-control {
+	text-align: left;
+	color: var(--gray) !important;
+}
+
+.mapHeadersRow .row>* {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.mapHeadersRow {
+	padding: 0px 10px;
+}
+
+.reset-btn {
+	border: 1px solid var(--rose-bud) !important;
+}
+
+.readonlyInput {
+	color: var(--secondary) !important;
+}
+
+.custom-anc {
+	/*padding: 0px 10px;*/
+	text-decoration: none;
+	color: var(--primary);
+
+}
+
+.custom-anc .span1 {
+	/*margin-left: 10px;*/
+	padding: 0px 2px;
+	border-bottom: 1px solid var(--primary);
+
+}
+
+.custom-anc .span1:hover {
+	background-color: var(--light-gray);
+	color: var(--primary);
+}
+
+.custom-anc:hover .span1 {
+	color: var(--primary);
+	background-color: var(--light-gray);
+}
+
+.hoverAble:hover {
+	cursor: pointer;
+}
+
+.check_step {
+	padding-top: 0px !important;
+
+}
+
+.check_step img {
+	margin-bottom: 0px !important;
+}
+
+.SliderbBgColor {
+	background-color: var(--light-gray);
+}
+
+/*save search*/
+.hoverColor:hover {
+	color: var(--primary);
+}
+
+.deletModal .modal-content {
+	margin-top: 60%;
+}
+
+.deletModal #example-modal-sizes-title-sm {
+	font-size: 18px;
+}
+
+.delete_btnUl li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.delete_btnUl li .btn-yes {
+	background-color: var(--primary);
+	color: white;
+}
+
+.delete_btnUl li .btn-no {
+	background-color: var(--secondary);
+	color: white;
+}
+
+.viewMoreModal #example-modal-sizes-title-lg {
+	font-size: 20px;
+}
+
+.viewMoreModal table {
+	width: 100%;
+}
+
+.viewMoreModal table p {
+	font-size: 14px;
+}
+
+.viewMoreModal .head {
+	font-weight: 500;
+}
+
+.savedPoints span {
+	margin-left: 20px;
+	font-weight: 400;
+	color: var(--secondary);
+}
+
+.deletModal,
+.viewMoreModal {
+	background-color: #7e777759 !important;
+}
+
+.deletModal .modal-content {
+	min-height: auto !important;
+}
+
+.deletModal .btn-close {
+	position: absolute;
+	right: 91px;
+	top: 58%;
+	z-index: 9999;
+	/*background-color: green;*/
+	padding: 11px 15px !important;
+	color: white !important;
+}
+
+.viewMoreModal .modal-content {
+	min-height: auto !important;
+}
+
+.profileItem .nav-link {
+	color: gray;
+	font-weight: bold;
+}
+
+.profileItem .nav-link:hover {
+	color: var(--rose-bud);
+}
+
+.text-normal {
+	font-weight: normal;
+}
+
+.detailTable tr td {
+	padding: 8px;
+}
+
+
+/*city card*/
+.propety-card1 {
+	border: 1px solid lightgrey;
+	position: relative;
+	cursor: pointer;
+}
+
+.propety-card1 img {
+	height: 190px;
+	margin-bottom: -2px !important;
+}
+
+.propety-card1 .city_info {
+	background-color: var(--rose-bud);
+	color: #fff;
+	padding: 10px 20px 5px;
+}
+
+.citylinks {
+	padding: 0 1.5em;
+}
+
+.citylinks_links {
+	width: 100%;
+	margin: 0;
+	padding: 1vw 0 !important;
+	font-size: 1vw;
+	line-height: 1.5vw;
+	text-align: left;
+}
+
+.citylinks_links {
+	font-size: .9em;
+	line-height: 1.5em;
+	padding: 0.8em 0 !important;
+}
+
+.citylinks_links li {
+	padding-left: 1.2em;
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.citylinks_links li {
+	padding-left: 1.4vw;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: font-weight 0.2s ease;
+	-moz-transition: font-weight 0.2s ease;
+	transition: font-weight 0.2s ease;
+}
+
+.citylinks_links a {
+	color: #4c4c4c !important;
+	text-decoration: none;
+}
+
+.city_images {
+	/*opacity: .5;*/
+	background: #545a61b8;
+}
+
+.hoverEffect {
+	width: 100%;
+	height: 72%;
+	position: absolute;
+	top: 0%;
+	/*left: 25%;*/
+	color: white;
+	background-color: #545a61b8;
+	padding: 26px;
+	opacity: 0;
+	transition: .6s;
+}
+
+.hoverEffect .citylinks_links li a {
+	color: white !important;
+	font-weight: 550;
+}
+
+.propety-card1:hover .hoverEffect {
+	opacity: 1;
+}
+
+.hoverAble:hover {
+	cursor: pointer;
+}
+
+#bannerSection {
+	padding-bottom: 70px;
+}
+
+.agentinfo {
+	padding-top: 5px;
+}
+
+.agentinfo p {
+	color: var(--black);
+}
+
+.city_info small {
+	color: var(--white);
+}
+
+.agentinfo h3 {
+	font-size: 22px;
+	padding-bottom: 0px !important;
+}
+
+.footerInfo li {
+	margin-bottom: 20px;
+}
+
+.filterValue button.form-control {
+	color: gray;
+}
+
+.main-navbar ul li {
+	font-weight: normal !important;
+}
+
+.footer-links li {
+	font-weight: normal !important;
+}
+
+.copyright-website {
+	font-weight: normal !important;
+}
+
+.box-col .title {
+	margin-top: 40px;
+}
+
+
+.main-navbar .active {
+	color: var(--rose-bud) !important;
+	border-bottom: 1px solid red !important;
+	border-radius: 0px !important;
+
+}
+
+.main-navbar .dropdown-item.active,
+.dropdown-item.active {
+	background-color: var(--rose-bud) !important;
+	color: white !important;
+}
+
+.main-navbar .dropdown-item.active,
+.dropdown-item.active a {
+	background-color: var(--rose-bud) !important;
+	color: white !important;
+}
+
+.main-navbar .active:hover {
+	color: black !important;
+}
+
+.main-navbar .active a:hover {
+	color: black !important;
+}
+
+.main-navbar .dropdown button {
+	padding: 0px;
+}
+
+
+.BannerSection {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*position:relative;*/
+}
+
+.bannerInner {
+	background-color: #ffffffc4;
+	padding: 40px 50px !important;
+}
+
+.CounterCard {
+	padding: 20px;
+	text-align: center;
+	background-color: #ffffffc4;
+	box-shadow: 0 10px 31px 0 #cdc6c6ad;
+}
+
+.CounterCard h1 {
+	color: var(--rose-bud);
+	font-size: 2.5rem !important;
+}
+
+.CounterCard h2 {
+	color: var(--rose-bud);
+	font-size: 2.5rem !important;
+}
+
+.CounterCard h3 {
+	color: var(--rose-bud);
+	font-size: 2.5rem !important;
+}
+
+.CounterCard p {
+	color: #000;
+	font-size: 20px;
+}
+
+.search-boxform {
+	position: relative;
+	width: 100% !important;
+
+}
+
+.search-box-wrapper {
+	border-radius: 0px !important;
+}
+
+.border-square {
+	border-radius: 0px !important;
+}
+
+/*map page*/
+.cards_wrapper {
+	max-height: 100vh;
+	overflow-y: scroll;
+}
+
+.mapbtn {
+	display: none;
+	background: transparent;
+	border: 0px;
+	padding-top: 4px;
+	padding-right: 10px;
+}
+
+.mapInMbile {
+	height: 100vh;
+}
+
+@media only screen and (max-width: 778px) {
+	.hoverEffect {
+		opacity: 1;
+		height: 73%;
+	}
+
+	.footerInfo li {
+		margin-bottom: 13px;
+	}
+
+	.box-col .title {
+		margin-top: 0px;
+	}
+
+	.contact-wrapper .aboutSection .aboutForm {
+		width: 100%;
+	}
+
+	.iframMobile {
+		width: 100%;
+	}
+
+	.bannerInner {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+		padding-bottom: 0px !important;
+		padding-top: 25px !important;
+	}
+
+	.search-boxform {
+		padding: 0px !important;
+	}
+
+	.BannerSection {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.search-btn-area {
+		margin-top: 8px !important;
+	}
+
+	.sign-inbtn-mb button {
+		margin-top: 18px;
+	}
+
+	.top-header {
+		padding-top: 0;
+		padding-bottom: 5px;
+	}
+
+	.CounterCard {
+		/*padding: 0px;*/
+		padding-top: 3px;
+		padding-bottom: 1px;
+		margin: 0px 50px !important;
+	}
+
+	.bannerInner .text-heading {
+		margin-top: 0px;
+		font-size: 17px;
+	}
+
+	.bannerInner h6 {
+		font-size: 14px;
+	}
+
+	.CounterCard h1 {
+		margin-bottom: 0px;
+	}
+
+	.CounterCard p {
+		margin-bottom: 3px;
+	}
+
+	#dropdown-basic1 {
+		margin-top: 20px;
+	}
+
+	#dropdown-basic1 span i {
+		font-size: 33px !important;
+	}
+
+	.cards_wrapper {
+		max-height: 100%;
+	}
+
+	.reset-btn {
+		width: 100%;
+		margin-top: 2px;
+		/*z-index: ;*/
+	}
+
+	.mapbtn {
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 172px;
+		color: var(--gray) !important;
+	}
+
+	.mapHideShow {
+		display: none;
+	}
+
+	.main-navbar .dropdown {
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+
+	.mapInMbile {
+		height: 80vh;
+	}
+
+	.top-header ul {
+		padding-left: 0px;
+	}
+
+	.main-navbar .dropdown button {
+
+		color: white;
+	}
+
+}
+
+@media only screen and (max-width: 920px) {
+	.iframMobile {
+		width: 100%;
+	}
+}
+
+.viewMoreModal {
+	z-index: 9999 !important;
+}
+
+.openDropdown .active {
+	color: black !important;
+}
+
+@media only screen and (max-width: 280px) {
+	.common-btn {
+		padding: 3px 12px;
+	}
+
+	.CounterCard {
+		margin: 0px 5px !important;
+	}
+
+	.hoverEffect {
+		padding: 2px;
+		height: 66%;
+	}
+
+	.stats-btn {
+		margin-right: 40px;
+	}
+}
+
+.dropdown-item {
+	padding: 0px !important;
+}
+
+.dropLinks {
+	display: block;
+	padding: 0.25rem 1rem;
+}
+
+.fade {
+	opacity: 1 !important;
+}
+
+.mapboxgl-popup-content {
+	width: 240px !important;
+}
+
+.mapboxgl-popup-content .spec {
+	font-size: 12px;
+	margin-right: 4px;
+}
+
+.mapboxgl-popup-content .detail_btn {
+	font-size: 12px;
+	padding: 0px 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.searchHeadline {
+	font-size: 2rem;
+}
+
+.search-tagline {
+	font-size: 1rem;
+
+}
+
+.h-20 {
+	height: 20px !important;
+}
+
+.img-height-width {
+	width: "100%" !important;
+	height: "20rem" !important;
+}
+
+.up-green-icon {
+	height: "8px";
+	margin: "5px";
+	color: "green !important";
+}
+
+.down-red-icon {
+	height: "7px";
+	margin: "5px";
+}
+
+.height-66 {
+	height: 66px !important;
+}
+
+.p-tags {
+	color: #000 !important;
+	font-size: 19px !important;
+}

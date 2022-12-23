@@ -1,0 +1,91 @@
+/*.autoSuggestionCls {*/
+/*    position:relative;*/
+/*    background-color: "gray";*/
+/*    padding-right: 2px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+.autoSuggestionCls {
+    position: relative;
+    background-color: transparent;
+    padding-right: 0px;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: row;
+    align-content: stretch;
+    width: auto;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.autoSuggestionCls input {
+    display: inline-block;
+    width: 100%;
+}
+
+.autoSuggestionCls ul li {
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 10px;
+    width: 100%;
+    color:var(--darker-black);
+    z-index: 9999;
+}
+
+.autoSuggestionCls ul li:hover {
+    background-color: var(--primary);;
+    color: #fff;
+}
+
+.autoSuggestionCls ul .listHeading {
+    font-weight: 700;
+    color: #fff !important;
+    position: relative;
+    left: -10px;
+    margin-top: 10px !important;
+    padding: 5px;
+    background-color: var(--primary);
+
+}
+
+.autoSuggestionCls .itemList {
+    padding: 5px;
+    font-size: 14px !important;
+    
+}
+
+.autoSuggestionCls .resultDisplay {
+    padding: 1px !important;
+    margin:0;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    display: inline;
+    overflow-x: hidden;
+    z-index: 9999;
+    background: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    max-height:40vh;
+}
+
+/* 
+.autoSuggestionCls .resultDisplay {
+    padding: 1px !important;
+    width: 75vh;
+    overflow-x: hidden;
+}
+
+.autoSuggestionCls ul {
+    background: white;
+    display: inline;
+    min-height: 350px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 75px;
+    z-index: 99;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+} */

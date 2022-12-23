@@ -1,0 +1,84 @@
+
+html,
+body {
+  font-weight: 600 !important;
+}
+:root{
+
+  /* // Body */
+  --body-bg: #f8fafc;
+  /* // Typography */
+  --font-family-sans-serif: 'Nunito', sans-serif;
+  --bs-font-sans-serif:"Poppins", sans-serif;
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-size-base: 0.9rem;
+--line-height-base: 1.6;
+/* // Colors */
+--primary:#ff5f64;
+--primary-light:#f89d9f7a;
+/*--rose-bud:#fe9ea1;*/
+--rose-bud:#FF5B60;
+--rose-bud-light:#feb8ba;
+--secondary:#777;
+--light-secondary:#bbb;
+--gray:#707070;
+--light-gray:#ebebeb;
+--white:#fff;
+--black: #222323;
+--darker-black: #171717;
+--blue: #3490dc;
+--indigo: #6574cd;
+--purple: #9561e2;
+--pink: #f66d9b;
+--red: #e3342f;
+--orange: #f6993f;
+--yellow: #ffed4a;
+--green: #38c172;
+--teal: #4dc0b5;
+--cyan: #6cb2eb;
+--pink-light:#FE9EA1;
+--default-color: rgba(0,0,0,0.6);
+
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0px rgba(230, 230, 230, 0.25) !important;
+  border-color:var(--primary) !important;
+}
+#badge-text{
+  display: none !important;
+}
+
+.marker {
+  background-color: var(--primary);
+  width:  10px;
+  height: 10px;
+  border-radius:50%;
+  box-shadow: 0 0 0 3px #fff;
+}
+.font-14{
+  font-size: 14px !important;
+}
+
+@import url(custom.css);
+@import url(common.css);
+@import url(../ReactCommon/Components/ScheduleShowing/css/index.css);
+@import url('./css/nav.css');
+@import url('./css/propertyDetails.css');
+@import url('./css/style.css');
+@import url('./css/ReactCommon/Carousel.css');
+@import url('./css/ReactCommon/MapCard.css');
+@import url('./css/ReactCommon/Model.css');
+@import url('./css/ReactCommon/accordion.css');
+@import url('./css/ReactCommon/calculator.css');
+@import url(./css/mapHeaderV2.css);
+@import url(./css/ReactCommon/ContactUs/index.css);
+@import url(propertyCard.css);
+@import url(icon.css);
+@import url(./css/termofuse.css);
+@import url(extra.css);
+@import url(calculator.css);
+@import url(skeleton.css);
+

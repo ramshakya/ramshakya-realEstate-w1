@@ -1,0 +1,11 @@
+.custom-right-arrow:after{
+	content: "→";
+	/*color: ;*/
+    line-height: inherit;
+    font-size: inherit!important;
+    opacity: 1;
+    margin-left: 1em;
+    left: auto;
+    font-family: ETmodules!important;
+    font-weight: 400!important;
+}

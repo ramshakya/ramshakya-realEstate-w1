@@ -1,0 +1,51 @@
+.calculator_head{
+	font-family:stagsans,arial,helvetica,sans-serif;
+	font-size:1.6em;
+	font-weight:400;
+	margin-top:0;
+	text-decoration:none;
+	color:var(--rose-bud);
+}
+.calculator_right{
+	text-align:right;
+}
+.calculator_link{
+	display:inline-block;
+	width:80px;
+	margin-top:.5em;
+	margin-top:-1em;
+}
+#affordability-calc{
+	max-width: 100%!important;
+}
+.fixed-top{
+	z-index: 99999!important;
+}
+.calculator-nav{
+	/*border-bottom: 2px solid var(--light-secondary);*/
+	padding-left: 0px;
+}
+.calculator-nav li{
+	display: inline-block;
+	/*padding-right: 30px;*/
+	width:33%;
+	text-align: center;
+	border-bottom: 3px solid var(--light-secondary);
+}
+.calculator-nav li.active{
+	border-bottom: 3px solid var(--rose-bud);
+	
+}
+.calculator-nav li .btn{
+	font-weight: 500;
+	color: var(--light-secondary);
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+.calculator-nav li .btn:hover{
+	color: var(--rose-bud);
+}
+.calculator-nav li.active .btn{
+	color: var(--rose-bud);
+}

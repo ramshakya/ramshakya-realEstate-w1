@@ -1,0 +1,309 @@
+.contact-wrapper{
+    padding: 2% 3%;
+    text-align: center;
+}
+.contact-wrapper .hr {
+    width: 5%;
+    margin:20px auto;
+    height: 3px ;
+    color: var(--primary);
+    opacity: 1;
+}
+.contact-wrapper .contactus {
+    font-size: 34px;
+    font-weight: 400;
+}
+.contact-us-img{
+    margin: 0 auto;
+    height: auto;
+    width: 96%;
+    max-width: 100%;
+    border: none;
+    display: block;
+    padding: 5px 0;
+}
+.contact-wrapper .sterling{
+    color: var(--primary);
+}
+.contact-wrapper .this-from-link{
+    color: var(--primary);
+
+}
+.contact-wrapper .office-section {
+    text-align: left;
+    /* margin-top:9% !important; */
+    padding: 2%;
+}
+.contact-wrapper .office-section h4{
+    font-size: 22px;
+    color:var(--light-black);
+    padding:10px 0px 12px 0px !important
+
+}
+.contact-wrapper .office-content{
+    color: var(--gray);
+    font-size:15px ;
+    line-height: 1.5rem;
+    margin-top: -8px;
+
+}
+.looking-to-cheque{
+    font-weight: 500;
+}
+.office-section .card-holder{
+    position: relative;
+    width: 94%;
+    max-width: 100%;
+    justify-content: space-between;
+    text-align: left;
+}
+.office-section .card-holder:hover{
+    transition: all 0.1s ease-out;
+    box-shadow: 2px 4px 8px rgba(38, 38, 38, 0.2);
+}
+.office-section .card-holder .card{
+    border-color: var(--white);
+}
+.contact-wrapper .card-imgs img {
+    width: 100%;
+    max-width: 100%;
+}
+.contact-wrapper .office-city{
+    font-weight: normal;
+}
+.contact-wrapper .office-city{
+    color:var(--light-black);
+    margin-top:25px;
+    font-family: inherit;
+    
+}
+.contact-wrapper .office-addr{
+    color: var(--gray);
+    font-size:14px ;
+    line-height: 1.5rem;
+    margin-top:5px;
+
+}
+.contact-wrapper .cantact-info a{
+    color: var(--primary) !important;
+    font-size:14px  !important;
+    text-decoration: none !important;
+}
+.contact-wrapper .cantact-link a{
+    color: var(--primary);
+    font-size:16px ;
+    text-decoration: none;
+}
+.contact-wrapper .cantact-link a:after{
+    content: attr(data-icon);
+}
+.dept{
+    text-align: left !important;
+}
+.dept .card{
+    border-color: var(--white);
+}
+
+.dept .cantact-info{
+    margin-top: -17px !important;
+}
+.dept .office-title{
+    color: var(--secondary);
+    font-size: 15px;
+    font-weight: 500 !important;
+}
+.dept .sub-title{
+    color: var(--secondary) !important;
+    
+}
+.dept .additional{
+    font-size: 14px;
+}
+.contact-wrapper .aboutSection {
+    background-color:#f7f7f7;
+    padding: 3% 3% !important;
+}
+.contact-wrapper .aboutSection .aboutForm {
+    background-color: var(--white) ;
+    width: 75%;
+    margin:0px auto;
+    
+}
+.contact-wrapper .aboutSection .letAboutForm{
+    padding: 5% 3%;
+}
+.contact-wrapper .aboutSection .contact_inputs{
+    margin: 20px 0px;
+    text-align: left !important;
+}
+.contact-wrapper .aboutSection .contact_inputs input{
+   height: 48px !important;
+   border-radius: 0px;
+}
+.contact-wrapper .aboutSection .contact_inputs .err-inp-msg{
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.contact-wrapper .aboutSection .autoSuggestionCls .auto-suggestion-inp {
+    height: 48px !important;
+    border-radius: 0px;
+}
+.contact-wrapper .aboutSection .autoSuggestionCls ul{
+    text-align: left !important;
+}
+.letAboutForm .comments{
+    border-radius: 0px;
+}
+.letAboutForm .submitBtns{
+    text-align: left !important;
+}
+.reviews .office-content{
+    padding: 0% 8% !important;
+    font-size: 16px;
+}
+.about{
+    padding: 0% 8% !important;
+}
+.about .office-content{
+    font-size: 16px;
+}
+.about .find_me_a_home a{
+    color: var(--secondary) !important;
+    text-decoration: none;
+    padding: 7px;
+    letter-spacing:1px;
+}
+.about .find_me_a_home a:hover{
+    background-color: var(--light-gray);
+}
+.about .find_me_a_home a::after{
+    /*content: "\2192" !important;*/
+    font-family: "ETmodules";
+    color: #000000;
+    line-height: inherit;
+    font-size: inherit !important;
+    opacity: 1;
+    position: relative;
+    top: 4%;
+    font-weight: 400 !important;
+}
+.about .sell_my_home a{
+    color: var(--white) !important;
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 10px;
+    letter-spacing:1px;
+}
+.about .sell_my_home a::after{
+    /*content: "\2192" !important;*/
+    font-family: "ETmodules";
+    color: #ffffff;
+    line-height: inherit;
+    font-size: inherit !important;
+    opacity: 1;
+    position: relative;
+    top: 4% !important;
+    font-weight: 500 !important;
+}
+.about .aboutContent{
+    font-size: 17px;
+    line-height: 1.3em;
+}
+.about-section .cardList{
+    padding: 10% 0%;
+
+}
+.about-section .content-holder  {
+    /*text-align: left !important;*/
+    font-size: 15px !important;
+    color:var(--secondary);
+}
+.about-section .card-holder  {
+    width: 85% !important;
+    margin: 0px auto !important;
+  }
+ .card-content .titles {
+    font-size: 20px !important;
+    color: var(--light-black);
+    /*text-align: left !important;*/
+    margin-top: 10%;
+}
+.content-holder a{
+    color:var(--primary) !important;
+    text-decoration: none;
+}
+
+ .aboutFooter{
+    background-color: var(--primary) !important;
+    color: var(--white);
+    text-align: center !important;
+    /* height: 25rem !important; */
+    padding-top: 7%;
+    padding-bottom: 9%;
+}
+.aboutFooter .try-now-text{
+    margin:0px auto !important;
+    margin-top: 5% !important;
+    border:2px solid var(--white);
+    width: 13%;
+    padding: 5px;
+
+}
+.aboutFooter .try-now-text a{
+    text-decoration:none;
+    font-size: 25px !important;
+    text-transform: uppercase;
+    color: var(--white);
+
+}
+.aboutFooter .try-now-text a::after{
+    content: "\2192" !important;
+    font-family: "ETmodules";
+    color: #ffffff;
+    line-height: inherit;
+    font-size: inherit !important;
+    opacity: 1;
+    position: relative;
+    top: 4% !important;
+    font-weight: 500 !important;
+}@media only screen and (max-width: 500px) {
+   .googleCaptcha .g-recaptcha {
+    transform:scale(0.74);
+    transform-origin:0 0;
+    }
+    .g-captcha-container .g-recaptcha {
+        transform:scale(0.89);
+        transform-origin:0 0;
+        }
+}
+.autoSuggestionCls .err-inp-msg ,.customErr{
+    font-size: 14px;
+    text-align: left !important;
+    position: absolute;
+    left: 20% !important;
+}
+#query{
+    width: 100% !important;
+}
+.form-control[readonly] {
+    background-color:var(--white) !important;
+    opacity: 1;
+}
+.feedback-wrapper{
+    padding: 3% 8% !important;
+}
+.feedback-wrapper .feedbackSection{
+    background-color: #ffffff !important;
+    padding: 4% 3% !important;
+}
+.feedback-wrapper .aboutSection{
+    background-color: #ffffff !important;
+    /* padding-bottom: 0% !important; */
+}
+.feedback-wrapper  .submit_button {
+    width: 100% !important;
+    margin:0px auto !important;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}

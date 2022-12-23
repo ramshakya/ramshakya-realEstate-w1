@@ -1,0 +1,131 @@
+@media (max-width: 1399px) {
+  .search-boxform {
+    width: 770px;
+  }
+}
+@media (max-width: 1199px) {
+  .bg-hero {
+    width: 58%;
+  }
+  .bg-hero img {
+    height: 769px;
+  }
+  .contact-addr {
+    margin-right: 120px;
+  }
+}
+@media (max-width: 991px) {
+  .search-boxform {
+    width: 650px;
+  }
+  .bg-hero img {
+    height: 680px;
+  }
+  .card-area-price {
+    flex-wrap: wrap;
+    margin: 15px 0px;
+  }
+  .card-area-price .area {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .cardName-cert {
+    flex-wrap: wrap;
+  }
+  .cardName-cert .d-flex {
+    margin-top: 10px;
+  }
+  .contact-addr {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .bg-hero {
+    display: none;
+  }
+  .dots-pattern {
+    display: none;
+  }
+  .search-boxform {
+    width: 100%;
+    left: 0px;
+    background: transparent;
+    z-index: 1;
+    padding: 30px;
+  }
+  .search-box-wrapper {
+    box-shadow: 1px 1px 10px 3px rgba(221, 221, 221, 0.541);
+    background: #fff;
+    border-radius: 10px;
+  }
+  .search-btn {
+    padding: 15px 32px;
+  }
+  .property-section .title {
+    margin-top: 170px;
+  }
+  .property-section .container-fluid {
+    padding: 0px 15px !important;
+  }
+  .form-bg {
+    display: none;
+  }
+  .contact-form-wrapper {
+    margin-left: 0px;
+  }
+  .form-col.box-col {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .nav-container .logo {
+    width: 140px;
+  }
+  .box-block-wrapper {
+    padding: 25px 20px 155px 20px;
+  }
+  .box-block-wrapper p {
+    font-size: 18px;
+    margin-top: 25px !important;
+    margin-bottom: 5px !important;
+  }
+  .search-btn {
+    padding: 12px 32px;
+  }
+  .title h1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+@media (max-width: 425px) {
+  .contact-form-wrapper {
+    padding: 30px 20px;
+  }
+  .contact-form-wrapper input,
+  .contact-form-wrapper textarea {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .contact-form-wrapper h2 {
+    margin-bottom: 35px;
+  }
+  .form-btn {
+    padding: 15px 0px;
+  }
+}
+@media (max-width: 389px) {
+  .nav-container .logo {
+    width: 120px;
+  }
+  .prop-count span {
+    font-size: 30px;
+  }
+  .prop-count p {
+    font-size: 18px;
+  }
+  .search-boxform {
+    padding: 20px;
+  }
+}
+/* @media (max-width: 1399.98px) {
+} */

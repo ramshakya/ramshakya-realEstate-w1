@@ -1,0 +1,3 @@
+import React from 'react';
+const Marker = ({ id,timeMicro,highLight,extraCls , details,data }) => <div id={`markers-${id}`} onMouseOver={highLight} dataset={JSON.stringify({id:id,ismap:true})} className={`${extraCls?extraCls.outerMarker:""}`} ><div id={`marker-${id}`} dataset={JSON.stringify({id:id,ismap:true,data:data?data:{}})}   className={`marker prop_marker mapMarker${id}  ${extraCls?extraCls.innerMarker:""} ${details?"details-marker":""} ` }  /></div>;
+export default Marker;

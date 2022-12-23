@@ -1,0 +1,65 @@
+export const WebSetting =
+{arrangeSections:[
+      "bannerSection",
+      "featuredSection",
+      "recentSection",
+      "citySection",
+      "blogSection",
+      "communitySection",
+      "testimonialSection",
+      "contectFormSection",
+      "htmlContentSection",
+      "profileSection",
+    ],
+  pageSetting:
+    {
+      CommunityBanner: "http://panel.wedu.ca/storage/62572982c3a5b.jpg",
+      TopBanner: "https://panel.wedu.ca/storage/banner_webp/62bade7e0188d.webp",
+      blogSection: "show",
+      citySection: "show",
+      communityBannerSection: "show",
+      contectFormSection: "show",
+      contentSection: "hide",
+      featuredSection: "hide",
+      htmlContent: null,
+      profileSection: "hide",
+      recentSection: "show",
+      testimonialSection: "show",
+      topBannerSection: "show",
+    },
+  websetting:
+    {
+      FacebookUrl: "https://facebook.com/wedudotca/",
+      FavIconAltTag: "Wedu",
+      Favicon: "https://panel.wedu.ca/storage/1652270821.png",
+      FbAppId: "319600363492618",
+      GoogleClientId: "635000236410-qh8ing947d8lt6sifo5bom17jp8qghlu.apps.googleusercontent.com",
+      GoogleMapApiKey: null,
+      HoodQApiKey: "95xVLjhNZ82RKeWqkU2gr8TfoOexrIYc4LU9SyKE",
+      InstagramUrl: "https://www.instagram.com/wedu_ca",
+      LinkedinUrl: "https://www.linkedin.com/company/realtorjuvan/",
+      LogoAltTag: "Wedu",
+      OfficeName: null,
+      PhoneNo: "(647) 243 - 5379",
+      ScriptTag: "<script>console.log(\"hello world\")</script>",
+      TopBanner: null,
+      TwitterUrl: "https://twitter.com/wedu_ca",
+      UploadLogo: "https://panel.wedu.ca/storage/1655888329.png",
+      WalkScoreApiKey: "ad81fcdbf9d13dccb26f827251fb7a08",
+      WebsiteAddress: "AIMHOME REALTY INC.\r\nBROKERAGE,\r\n\r\n3601 HWY. 7 E UNIT 513\r\nMARKHAM,ONTARIO",
+      WebsiteColor: "#c874b2",
+      WebsiteEmail: "info@wedu.com",
+      WebsiteMapColor: "#cb62af",
+      WebsiteName: "Wedu",
+      WebsiteTitle: "wedu.ca",
+      YoutubeUrl: "https://www.youtube.com/",
+    },
+  seo:{
+      home:{
+          MetaDescription: "Wedu Is Your Best Choice for Real Estate Search in Canada. Find Homes for Sale, New Developments, Rental Homes, Real Estate Agents, and Property Insights.",
+          MetaTags: "Homes for sale, real estate get listings",
+          MetaTitle: "Homes for Sale & Real Estate Get Listings in Canada | Wedu",
+        }
+    }
+  
+}

@@ -1,0 +1,72 @@
+.mapHeaderV2 #autoSuggestion::placeholder {
+    color:var(--gray);
+    font-size: 14px !important;
+    opacity: 1; /* Firefox */
+}
+.borderRadius{
+    border-radius: 0px !important;
+}
+
+.borderRadius:focus{
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25) !important;
+    border-color: var(--primary) !important;
+}
+
+.mapHeaderV2 #autoSuggestion:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:var(--gray);
+}
+
+.mapHeaderV2 #autoSuggestion::-ms-input-placeholder { /* Microsoft Edge */
+  color:var(--gray);
+}
+.mapHeaderV2 .status ul{
+    /* max-height: 300px !important; */
+    width: 116px !important; 
+    padding: 5px !important;
+}
+.mapHeaderV2 .status ul li{
+    margin: 0px;
+}
+.mapHeaderV2 #status::placeholder{
+    text-align: center !important;
+}
+.mapHeaderV2 .placeHolder::placeholder{
+    text-align: center !important;
+    font-size: 13px;
+}
+
+ 
+.mapHeaderV2 .pricePop{
+    justify-content: space-between;
+    border:0.2px solid var(--light-gray);
+    max-height: 278px;
+    width: 250px !important;
+    overflow: scroll;
+    display: inline-flex;
+    z-index: 999;
+    position: absolute;
+    background:var(--white );
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    /* display: none; */
+}
+.pricePop ul{
+    margin-top: 9px !important;
+    color: var(--gray);
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    font-size: 14px !important;
+    padding-left: 1rem;
+    display: inline-block;
+    color: var(--black);
+    
+}
+.mapHeaderV2 .pricePop ul li{
+    padding: 5px !important;
+    cursor: pointer;
+}
+.mapHeaderV2 ul .priceList:hover {
+    border-top:0.2 solid var(--gray) !important;
+    color: var(--white);
+    background-color: var(--primary);
+}

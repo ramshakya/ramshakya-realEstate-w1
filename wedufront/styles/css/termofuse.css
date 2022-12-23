@@ -1,0 +1,26 @@
+.term_condition_heading {
+    text-align: center !important;
+}
+.term_condition_sub_heading{
+    text-align: left !important;
+    color: black;
+    font-size: 23px;
+    font-weight: bolder !important;
+ }
+
+ .term_condition_heading span {
+     border-bottom: 2px solid var(--primary);
+ }
+
+ .term_condition .terms-content {
+     line-height: 1.5;
+     color: #0f0f0f;
+     font-weight: normal;
+     text-align: left !important;
+     font-size: 15px;
+ }
+ .term_condition_subinner_heading{
+    color: #0f0f0f;
+    font-size: 21px;
+    font-weight: bold;
+ }
