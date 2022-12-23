@@ -1,0 +1,123 @@
+.header-calculator {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+.mortgage-calculator {
+    background-size: contain;
+    box-sizing: border-box;
+}
+/*  */
+.mortgage-calc-div {
+    background-color: #f3f3f3;
+    /*box-shadow: #777;*/
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 4px 4px 4px 2px #888888;
+}
+
+.tabSection {
+    text-decoration: none;
+    /*border-bottom: 2px solid #ccc;*/
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s;
+    position: relative;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    transition: .2s ease-in color;
+}
+
+.CalcIconCon {
+    width: 40px;
+    font-size: 2rem;
+    margin-bottom: -13px;
+}
+
+.CalcIconCon .fa {
+    margin-bottom: 14px;
+}
+
+.tabSectionText {
+    padding: 7px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    letter-spacing: .04rem;
+}
+
+.tabDot {
+    color: #ccc;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -7px;
+    font-size: 1rem !important;
+    right: calc(50% - 8px);
+    bottom: -9px;
+}
+
+.tabSection {
+    text-decoration: none;
+    /*border-bottom: 2px solid #ccc;*/
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s;
+    position: relative;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    transition: .2s ease-in color;
+}
+
+#Mortgage {
+    border-bottom: 2px solid #777;
+}
+
+#Mortgage .svg-inline--fa {
+    color: #777;
+}
+
+.activeDraw {
+    border-bottom: 2px solid #777;
+}
+
+.activeDraw .svg-inline--fa {
+    border-bottom: 2px solid #777;
+}
+
+.unactiveDraw {
+    border-bottom: 2px solid #ccc;
+}
+
+.divclass {
+    /*display: -ms-flexbox;*/
+    display: flex;
+    /*-ms-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    
+}
+.CalcIconCon {
+width: 40px;
+font-size: 2rem;
+margin-bottom: -13px;
+position: relative !important;
+left: 128px !important;
+bottom: 8px !important;
+}
+.fontStyle{
+    font-family:stagsans,arial,helvetica,sans-serif;font-size:1.6em;font-weight:400;margin-top:0;text-decoration:none;color:#A3C139;
+}
+.paymentCalSection .contents{
+    display:inline-block;width:80px;margin-top:.5em;
+}

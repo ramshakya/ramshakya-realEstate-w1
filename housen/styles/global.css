@@ -1,0 +1,73 @@
+
+:root{
+  /* // Body */
+  --body-bg: #f8fafc;
+  /* // Typography */
+  --font-family-sans-serif: 'Nunito', sans-serif;
+  --bs-font-sans-serif:"Poppins", sans-serif;
+--font-size-base: 0.9rem;
+--line-height-base: 1.6;
+
+/* // Colors */
+--primary:#00bddc;
+--primary-light:#74c2d9;
+--rose-bud:#00bfdcbc;
+--rose-bud-light:#6fb2bd;
+--secondary:#777;
+--light-secondary:#bbb;
+--gray:#707070;
+--light-gray:#ebebeb;
+--white:#fff;
+--black: #222323;
+--darker-black: #171717;
+--blue: #3490dc;
+--indigo: #6574cd;
+--purple: #9561e2;
+--pink: #f66d9b;
+--red: #e3342f;
+--orange: #f6993f;
+--yellow: #ffed4a;
+--green: #38c172;
+--teal: #4dc0b5;
+--cyan: #6cb2eb;
+--pink-light:#FE9EA1;
+--theme-color:#0081a7;
+--theme-opacity:#7a818957;
+--theme-color-1: #0b1e5b;
+--danger: #ff5f64;
+--bg-white-transparent: #fff;
+--theme-color-light: #0081a7d1;
+
+}
+/*#00BDDC*/
+/*#2F7AF6*/
+/*#2F7AF6*/
+.inp-focus-cls:focus{
+	/*border-color: #fff !important;*/
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25)  !important; 
+}
+.red{
+color: var(--red) !important
+}
+
+/*  */
+@import url(./css/bootstrap.min.css);
+@import url(./css/responsive.css);
+@import url(./css/navbar.css);
+@import url(./css/card-style.css);
+@import url(./css/slider.css);
+@import url(./css/map-listing.css);
+@import url(./css/propertyDetails.css);
+@import url(./css/custom.css);
+@import url(./css/custom_form.css); 
+@import url('./css/ReactCommon/Carousel.css');
+/*@import url('./css/ReactCommon/MapCard.css');*/
+@import url('./css/ReactCommon/Model.css');
+@import url('./css/ReactCommon/accordion.css');
+@import url('./css/ReactCommon/calculator.css');
+@import url('./css/ReactCommon/ContactUs/index.css');
+@import url(../ReactCommon/Components/ScheduleShowing/css/index.css);
+@import url(../ReactCommon/Components/ScheduleShowing/css/index-v2.css);
+@import url(./css/price_range.css); 
+@import url(./css/statsNav.css);
+@import url(./calculator.css);

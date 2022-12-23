@@ -1,0 +1,198 @@
+ 
+   /*.mapCardList{*/
+   /*    margin:2px 0px !important;*/
+   /*    margin-bottom:25px !important;*/
+   /*    border: none !important;*/
+   /*    height: 300px !important;*/
+   /*}*/
+   /*  */
+
+   .mapCardList {
+     margin: 2px 0px !important;
+     margin-bottom: 0px !important;
+     border: none !important;
+     height: auto !important;
+   }
+  .mapCardList .header {
+    text-align: center;
+  }
+  .grid_view{
+    height:auto !important;
+  }
+  
+  .mapCardList .header h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    line-height: 1.2;
+    color: var(--black);
+  }
+  
+  .mapCardList .header h3 {
+    font-weight: 400;
+    color:var(--light-secondary);
+    width: 30em;
+  }
+  
+  .mapCardList .cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+  }
+  
+  .mapCardList .card {
+    background: var(--white);
+    border-radius: 0.2em;
+    overflow: hidden;
+    cursor: pointer;
+    height: 290px !important;
+    font-weight: bolder;
+    
+    /* box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+      0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03); */
+    transition: all ease 200ms;
+  }
+  
+  .mapCardList .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+      0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+      0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+  }
+  
+  .mapCardList .card img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .body-head li {
+      font-size: 12px;
+    }
+    .mapCardList .card h2 {
+      color: var(--darker-black) !important;
+      margin-top: -0.2em;
+      line-height: 1.4;
+      font-size: 1.2em;
+      font-weight: 500;
+      transition: all ease-in 100ms;
+    }
+  
+  .mapCardList .card p {
+    color:var(--secondary);;
+  }
+  .hill-inner {
+    display: flex;
+    margin-bottom: 2px;
+    list-style: none;
+    margin-top: -8px;
+    margin-bottom: 5px;
+}
+.hill-inner li{
+    font-size: 12px !important;
+    display: flex;
+    margin-right: 7.2px;
+    color: var(--black);
+}
+.cardSection .cardImages {
+  height: 200px !important;
+}
+  
+  .mapCardList .card h5 {
+    color:var(--light-secondary);;
+    font-weight: 700;
+    font-size: 0.7em;
+    text-transform: uppercase;
+  }
+  .mapCardList .body-head {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.mapCardList ul{
+padding-left: 0px !important;
+}
+ .priceDisp  {
+  margin-top: -34px !important;
+}
+.propAddress a{
+  text-decoration: none !important;
+color: var(--secondary);
+}
+.mapCardList .hill-body p {
+    color:var(--secondary);;
+    font-size: 13px !important;
+}
+.mapCardList  .propAddress{
+    margin-top:5px;
+}
+.imageFlag{
+    display: flex;
+    position: absolute;
+    /* bottom: 280px; */
+}
+.dom-ribbon {
+  color: var(--white);
+  position: absolute;
+  background-color: var(--primary) !important;
+  top: 0;
+  /* right: 65%; */
+  padding: 0.175rem !important;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: top 550ms linear;
+  font-size: 0.8em !important;
+  overflow: hidden;
+  /* width: 100px; */
+  text-align: center !important;
+  margin: 1px 12px;
+}
+.card-img-wrapper:hover .dom-ribbon {
+  top: -50px;
+  height: 0%;
+  z-index: -9 !important;
+}
+.grid_view .dom-ribbon{
+  /* right: 90% !important; */
+  right: 75% !important;
+}
+.favIcon img{
+  color: var(--secondary);;
+  margin-top: -7px;
+  height: 25px;
+}
+.priceSection{
+  font-size: 12px;
+background: var(--light-secondary);
+color: var(--secondary) !important;
+border-radius: 2px;
+padding: 5px;
+margin-top: -13px;
+height: 29px;
+  position: relative;
+  z-index: 9;
+}
+.favIcon{
+  background: var(--light-secondary);
+  border-radius: 4px;
+  padding: 7px;
+  margin-top: -17px;
+}
+.fillHeart{
+  height: 30px !important;
+}
+.domCls{
+  margin-top: -8px !important;
+}
+.propAddrSection{
+  list-style: none !important;
+  display: flex !important;
+  color: var(--secondary) ;
+  justify-content: space-between !important;
+  font-size: 14px !important;
+}
+.propAddrSection li a{
+  color: var(--secondary) ;
+}
+  

@@ -1,0 +1,61 @@
+.market-stats-nav .filter-option-container {
+     width: 100% !important;
+}
+
+.market-stats-nav .filter-option-container label {
+    padding: 9px 20px;
+    text-align: left;
+}
+
+
+.market-stats-nav .fa-sort-down::after {
+    transform: rotate(180deg);
+}
+
+.market-stats-nav .checkbox-opt .checkbox-opt-container {
+    max-width: 100% !important;
+}
+
+.market-stats-nav .list-containers {
+    height: 325px !important;
+    overflow-y: scroll !important;
+    width: 50%;
+}
+.market-stats-nav .checkbox-opt-showing{
+    display: flex !important;
+}
+
+.market-stats-nav .list-items{
+    font-size: 14px;
+    padding:5px 2px ;
+    margin-top: -15px;
+    color: var(--black);
+}
+.market-stats-nav .list-items:hover{
+     background-color: aliceblue !important;
+     cursor: pointer;
+   
+}
+
+.market-stats-nav .activeCls {
+    background-color: aliceblue !important;
+    font-weight: bold;
+    color: var(--theme-color-light);
+}
+.cities-color{
+    color: var(--black) !important;
+}
+.market-stats-nav .checkbox-opt-container{
+    min-width: 410px !important;
+}
+.market-stats-nav  .filter-option-container label{
+    box-shadow: 1px 1px 3px 0 rgba(255, 255, 255, 0.3) !important;
+}
+.stats-data-not-found{
+    border: 1px solid #bdbaba;
+border-radius: 4px;
+padding: 30px;
+text-align: center;
+height: 70%;
+box-shadow: 0px 0px 3px #aaa7a7;
+}

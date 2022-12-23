@@ -1,0 +1,40 @@
+.slideControls, .slideControls2 {
+  position: absolute;
+  width: 100%;
+  top: 47px;
+  left: 0;
+}
+.slideControls i, .slideControls2 i {
+  font-size: 30px;
+}
+.slideControls .slideNext, .slideControls2 .slideNext {
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  top: 60px;
+}
+.slideControls .slidePrev, .slideControls2 .slidePrev {
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+  top: 60px;
+}
+
+.carousel {
+  padding: 15px 25px;
+  position: relative;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel .slide {
+  padding: 20px;
+  text-align: center;
+  height: 50px;
+}
+.carousel div.one {
+  background: #ac5253;
+}
+.carousel div.two {
+  background: #6d292a;
+}

@@ -1,0 +1,95 @@
+[
+    {
+        "home": {
+            "title": "Homes for Sale & Real Estate Get Listings in Canada | Housen",
+            "keyword": "Homes for sale, real estate get listings",
+            "description": "Housen Is Your Best Choice for Real Estate Search in Canada. Find Homes for Sale, New Developments, Rental Homes, Real Estate Agents, and Property Insights",
+            "imgAlt": "Homes for Sale and Real Estate Get Listings",
+            "url": "Homes-for-sale-and-real-estate"
+        }
+    },
+    {
+        "contactUs": {
+            "title": "Contact Us | Latest Real Estate & Property Insights | Canada",
+            "keyword": "Homes for sale, real estate get listings",
+            "description": "Our Mission Is to Give Everyone the Opportunity to Find Their Dream Home. Get the Latest Real Estate, Property Insights, Rental Homes, and Get Listings Real Estate.",
+            "imgAlt": "Homes for Sale and Real Estate Get Listings in Canada",
+            "url": "Homes-for-sale-and-real-estate"
+        }
+    },
+    {
+        "aboutUs": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "About Us | Homes for Sale & Real Estate Get Listings | Canada",
+            "description": "Housen Is a Premier Real Estate Portal, That Brings You the Latest in Homes for Sale and Real Estate. Our Website Is the Best Online Resource for Home Buyers and Sellers.",
+            "imgAlt": "Homes for Sale and Real Estate Get Listings in Canada",
+            "url": "homes-for-sale-and-real-estate"
+        }
+    },
+    {
+        "listingPage": {
+            "keyword": "Home for Sale & Listing in Canada",
+            "title": "Homes for Sale & Real Estate Get Listings in Canada | Housen",
+            "description": "Housen provides the latest listings of condos, apartments, and houses for Buy throughout Canada. View our comprehensive Buy listings today!",
+            "imgAlt": "Home for Sale & Listing in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada",
+            "buy": true
+        }
+    },
+    {
+        "listingPage": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "Home for Rent:Apartment & House for rent in Canada | Housen",
+            "description": "Housen provides the latest listings of condos, apartments, and houses for Rent throughout Canada. View our comprehensive Rent listings today!",
+            "imgAlt": "Home for Sale & Listing in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada",
+            "rent": true
+        }
+    },
+    {
+        "advanceSearch": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "Home for Rent:Apartment & House for rent in Canada | Housen",
+            "description": "Housen provides the latest listings of condos, apartments, and houses for Rent/Buy throughout Canada. View our comprehensive Rent listings today!",
+            "imgAlt": "Home for Sale & Listing in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada",
+            "imgUrl": "/images/map.png"
+        }
+    },
+    {
+        "newHome": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "Canada Condos & Condo Building Info | Housen",
+            "description": "Housen.ca is your #1 resource for buying, selling, or renting a condo in Canada. Find amenities, strata restrictions, units for sale of each condo.",
+            "imgAlt": "New home for sale in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada"
+        }
+    },
+    {
+        "buldings": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "Canada Condos & Condo Building Info | Housen",
+            "description": "Housen.ca is your #1 resource for buying, selling, or renting a condo in Canada. Find amenities, strata restrictions, units for sale of each condo.",
+            "imgAlt": "New home for sale in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada"
+        }
+    },
+    {
+        "agents": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "Canada Real Estate Agent Search | Housen",
+            "description": "Looking for a real estate agent to sell or buy a home? Housen provides the most updated profiles of real estate agents across Canada. Start your agent search.",
+            "imgAlt": "New home for sale in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada"
+        }
+    },
+    {
+        "mortgage": {
+            "keyword": "Homes for sale, real estate get listings",
+            "title": "Compare Today's Mortgage Rates in Canada | Housen",
+            "description": "Compare current mortgage interest rates from banks and lenders in Canada and find the best rate that works with your home purchasing plan!",
+            "imgAlt": "New home for sale in Canada",
+            "url": "Home-for-Sale-&-Listing-in-Canada"
+        }
+    }
+]

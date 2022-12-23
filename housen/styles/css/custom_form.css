@@ -1,0 +1,291 @@
+#LoginPopupform input.form-control {
+	width: 68% !important;
+	display: inline-block;
+	/*margin-left: 10px;*/
+	/*border-radius: 0px;*/
+	border-left: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 14px;
+}
+
+#LoginPopupform label {
+	border: 1px solid #dcdfe6 !important;
+	background-color: #F5F7FA;
+	padding: 6px 5px;
+	width: 32%;
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+	text-align: center;
+	color: var(--theme-color) !important;
+	font-size: 14px;
+	font-weight: bold !important;
+
+}
+
+.submitButton {
+	width: 32%;
+	padding: 7px 17px;
+	text-transform: capitalize;
+}
+
+.kep-login-facebook {
+	width: 100% !important;
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	border-radius: .25rem !important;
+	text-align: center !important;
+	font-weight: normal !important;
+	font-size: 14px !important;
+	height: 40px!important;
+}
+
+.google-login {
+	width: 48% !important;
+	margin-left: 15px !important;
+	box-shadow: none !important;
+	border: 1px solid var(--light-gray) !important;
+	border-radius: .25rem !important;
+}
+
+.google-login span {
+	padding: 10px 10px 10px 22px !important;
+	text-transform: capitalize;
+}
+
+.loginLogo {
+	width: 200px;
+}
+
+#LoginPopupform input.form-control[readonly] {
+	background-color: var(--light-gray) !important;
+	font-size: 14px !important;
+}
+
+.form-content {
+	padding: 10px 20px;
+}
+
+.popupbackground {
+	background-size: cover;
+	background-position: 25% 35% !important;
+	;
+}
+
+#LoginPopupform p {
+	margin-bottom: 0px !important;
+}
+
+.signInBtn {
+	background-color: var(--theme-color-1);
+}
+
+@media only screen and (max-width: 600px) {
+
+	.kep-login-facebook {
+		width: 100% !important;
+	}
+
+	.google-login {
+		width: 100% !important;
+		margin-left: 0px !important;
+		margin-top: 10px !important;
+		border: 1px solid gray !important;
+	}
+
+	.inline-block {
+		margin-left: 0px;
+	}
+
+	.inline-block1 {
+		margin-left: 90px;
+		/*margin-top: -110px;*/
+	}
+
+	#LoginPopupform label {
+		font-size: 14px;
+		width: 40%;
+	}
+
+	#LoginPopupform input.form-control {
+		width: 60% !important;
+		font-size: 14px;
+	}
+
+	#LoginPopupform input.form-control[readonly] {
+		font-size: 14px !important;
+	}
+	#recentSection .featuredListingHeading{
+        margin-top: 45px;
+    }
+}
+
+#LoginPopupform .submitButton {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#LoginPopupModal .text-center {
+	font-size: 14px !important;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+.shareOption:hover {
+	cursor: pointer;
+}
+
+.largeModel {
+	background-color: black;
+}
+
+.largeModel .modal-lg {
+	min-width: 80% !important;
+}
+
+.largeModel .modal-content {
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+}
+
+.btn-close {
+	position: absolute;
+	right: -8%;
+	top: 0%;
+	color: white !important;
+	background-color: white;
+	opacity: 1;
+}
+
+.modal-header {
+	border: none;
+}
+
+.preConsSlider:hover {
+	cursor: pointer;
+}
+
+.withoutColorCard li {
+	list-style: none !important;
+	font-size: 14px;
+}
+
+.registerMsg {
+	font-size: 13px;
+	padding: 10px;
+	border: 1px solid gray;
+	margin-top: 5px;
+}
+
+.preCon_menu a:hover {
+	color: white;
+}
+.preconHeader{
+	background-image: url('../../public/images/1.jpg');
+	background-size: cover;
+	padding: 100px 15px;
+	height: 68vh;
+	margin-bottom: 40px;
+}
+.preconHeader h3{
+
+	text-shadow: 4px 4px 6px rgb(0 0 0 / 50%);
+	color: white;
+	font-size: 50px;
+	line-height: 80px;
+	font-weight: bold;
+}
+.preconHeader p{
+	text-shadow: 4px 4px 6px rgb(0 0 0 / 50%);
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.preconContent a:hover{
+	color: white;
+}
+.projects{
+	height: 100%;
+}
+.project_name{
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.project_address{
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.propertyStatus{
+	background-color: #8080807a;
+	padding: 0 8px;
+	border-radius: 2px;
+}
+.propertyTypeLabel{
+	background-color: #8080807a;
+	padding: 0 8px;
+	border-radius: 2px;
+}
+.builderLogo .preConLogo{
+	display: inline-block;
+	margin-right: 50px;
+}
+@media only screen and (max-width: 800px) {
+  .builderLogo .preConLogo {
+   	width: 30%;
+   	margin-right: 10px;
+  }
+}
+.pre_modal .btn-close{
+	margin-right: -16px;
+	margin-top: -32px; 
+	
+	position: relative!important;
+}
+.pre_modal .modal-title.h4{
+	position: relative!important;
+	left: 10px;
+}
+.MuiSlider-track{
+	height: 6px!important;
+}
+.MuiSlider-rail{
+	height: 6px!important;
+
+}
+.MuiSlider-thumb{
+	width: 17px!important;
+	height: 17px!important;
+	margin-top: -6px!important;
+	background-color: white!important;
+	border: 2px solid!important;
+}
+.tags_input{
+	margin-top: 3px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid gray;
+	padding: 2px 5px;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-right: 4px;
+	margin-left: 1px;
+}
+.tags_input span{
+	cursor: pointer;
+	margin-left: 5px;
+	font-size: 14px;
+}
+.agentSearchForm label{
+	font-size: 14px;
+}
+.check_step img{
+	margin-left: -2px;
+}
+.notice{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 12px;
+}

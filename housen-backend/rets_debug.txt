@@ -1,0 +1,110 @@
+*   Trying 206.152.41.137...
+* TCP_NODELAY set
+* Connected to rets.torontomls.net (206.152.41.137) port 6103 (#0)
+> GET /rets-treb3pv/server/login HTTP/1.1
+Host: rets.torontomls.net:6103
+Accept: *
+RETS-Version: RETS/1.7
+User-Agent: PHRETS/1.0
+
+< HTTP/1.1 401 Unauthorized
+* cookie size: name/val 15 + 1 bytes
+* Added cookie RETS-Session-ID="0" for domain rets.torontomls.net, path /rets-treb3pv/server/, expire 0
+< Set-Cookie: RETS-Session-ID=0
+< Cache-Control: private
+< RETS-Version: RETS/1.7
+< Server: StratusRETS/1.7
+< RETS-Server: StratusRETS/1.7
+< WWW-Authenticate: Digest realm="rets.torontomls.net",nonce="2662d3056ee46bbac15e85546c854e6f",opaque="5ccdef346870ab04ddfe0412367fccba",qop="auth"
+< Content-Type: text/xml;charset=utf-8
+< Transfer-Encoding: chunked
+< Date: Tue, 10 May 2022 14:03:38 GMT
+< 
+* Ignoring the response-body
+* Connection #0 to host rets.torontomls.net left intact
+* Issue another request to this URL: 'http://rets.torontomls.net:6103/rets-treb3pv/server/login'
+* Found bundle for host rets.torontomls.net: 0x5644693d69b0 [can pipeline]
+* Re-using existing connection! (#0) with host rets.torontomls.net
+* Connected to rets.torontomls.net (206.152.41.137) port 6103 (#0)
+* Server auth using Digest with user 'D22osi'
+> GET /rets-treb3pv/server/login HTTP/1.1
+Host: rets.torontomls.net:6103
+Authorization: Digest username="D22osi", realm="rets.torontomls.net", nonce="2662d3056ee46bbac15e85546c854e6f", uri="/rets-treb3pv/server/login", cnonce="YmZjMTBlZTkyNzYyN2RiMjE3MGMxYmZkMWE1NmFlNTY=", nc=00000001, qop=auth, response="33339d386d6211cd8fe05a2af2e30ef4", opaque="5ccdef346870ab04ddfe0412367fccba"
+Cookie: RETS-Session-ID=0
+Accept: *
+RETS-Version: RETS/1.7
+User-Agent: PHRETS/1.0
+
+< HTTP/1.1 401 Unauthorized
+* cookie size: name/val 15 + 1 bytes
+* Replaced cookie RETS-Session-ID="0" for domain rets.torontomls.net, path /rets-treb3pv/server/, expire 0
+< Set-Cookie: RETS-Session-ID=0
+< Cache-Control: private
+< RETS-Version: RETS/1.7
+< Server: StratusRETS/1.7
+< RETS-Server: StratusRETS/1.7
+* Authentication problem. Ignoring this.
+< WWW-Authenticate: Digest realm="rets.torontomls.net",nonce="24404638ed8a0a916c50734bfeec0fd8",opaque="5ccdef346870ab04ddfe0412367fccba",qop="auth"
+< Content-Type: text/xml;charset=utf-8
+< Transfer-Encoding: chunked
+< Date: Tue, 10 May 2022 14:03:38 GMT
+< 
+* Connection #0 to host rets.torontomls.net left intact
+<RETS ReplyCode="20036" ReplyText="Login failed." >
+</RETS>
+
+*   Trying 206.152.41.137...
+* TCP_NODELAY set
+* Connected to rets.torontomls.net (206.152.41.137) port 6103 (#0)
+> GET /rets-treb3pv/server/login HTTP/1.1
+Host: rets.torontomls.net:6103
+Accept: *
+RETS-Version: RETS/1.7
+User-Agent: PHRETS/1.0
+
+< HTTP/1.1 401 Unauthorized
+* cookie size: name/val 15 + 1 bytes
+* Added cookie RETS-Session-ID="0" for domain rets.torontomls.net, path /rets-treb3pv/server/, expire 0
+< Set-Cookie: RETS-Session-ID=0
+< Cache-Control: private
+< RETS-Version: RETS/1.7
+< Server: StratusRETS/1.7
+< RETS-Server: StratusRETS/1.7
+< WWW-Authenticate: Digest realm="rets.torontomls.net",nonce="c4c509b6a5b6737988059f194706cf6f",opaque="5ccdef346870ab04ddfe0412367fccba",qop="auth"
+< Content-Type: text/xml;charset=utf-8
+< Transfer-Encoding: chunked
+< Date: Tue, 10 May 2022 14:03:52 GMT
+< 
+* Ignoring the response-body
+* Connection #0 to host rets.torontomls.net left intact
+* Issue another request to this URL: 'http://rets.torontomls.net:6103/rets-treb3pv/server/login'
+* Found bundle for host rets.torontomls.net: 0x5650599a5a20 [can pipeline]
+* Re-using existing connection! (#0) with host rets.torontomls.net
+* Connected to rets.torontomls.net (206.152.41.137) port 6103 (#0)
+* Server auth using Digest with user 'D22osi'
+> GET /rets-treb3pv/server/login HTTP/1.1
+Host: rets.torontomls.net:6103
+Authorization: Digest username="D22osi", realm="rets.torontomls.net", nonce="c4c509b6a5b6737988059f194706cf6f", uri="/rets-treb3pv/server/login", cnonce="OGQ5NDEyNGNmYmFmYWE5Y2IzODA0YmYwMjZhN2IxMjY=", nc=00000001, qop=auth, response="fd9b1567c4cafc51a29b1dbfddad5626", opaque="5ccdef346870ab04ddfe0412367fccba"
+Cookie: RETS-Session-ID=0
+Accept: *
+RETS-Version: RETS/1.7
+User-Agent: PHRETS/1.0
+
+< HTTP/1.1 401 Unauthorized
+* cookie size: name/val 15 + 1 bytes
+* Replaced cookie RETS-Session-ID="0" for domain rets.torontomls.net, path /rets-treb3pv/server/, expire 0
+< Set-Cookie: RETS-Session-ID=0
+< Cache-Control: private
+< RETS-Version: RETS/1.7
+< Server: StratusRETS/1.7
+< RETS-Server: StratusRETS/1.7
+* Authentication problem. Ignoring this.
+< WWW-Authenticate: Digest realm="rets.torontomls.net",nonce="811faa2a5e6144bbae472b21f8ef2a81",opaque="5ccdef346870ab04ddfe0412367fccba",qop="auth"
+< Content-Type: text/xml;charset=utf-8
+< Transfer-Encoding: chunked
+< Date: Tue, 10 May 2022 14:03:53 GMT
+< 
+* Connection #0 to host rets.torontomls.net left intact
+<RETS ReplyCode="20036" ReplyText="Login failed." >
+</RETS>
+

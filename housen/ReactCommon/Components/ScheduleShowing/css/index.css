@@ -1,0 +1,415 @@
+ 
+ 
+ 
+ .scheduleTime p {
+	 line-height: 1.4;
+	 font-size: 16px;
+	 /* margin-bottom: 30px; */
+}
+  
+ .scheduleTime h1 {
+	 font-size: 24px;
+	 /* margin-bottom: 30px; */
+}
+ .scheduleTime .placeholder {
+	 border-radius: 5px;
+	 height: 15vh;
+	 min-height: 100px;
+	 /* margin-top: 20px !important; */
+	 /* margin-bottom: 20px; */
+}
+ .scheduleTime .placeholder.medium {
+	 height: 30vh;
+}
+.scheduleTime .placeholderForm{
+	background-color: var(--light-gray) !important;
+	padding: 10px;
+	border-radius: 5px;
+}
+.scheduleTime .placeholder.large {
+	 height: 45vh;
+}
+ .scheduleTime {
+	 background: rgba(0, 0, 0, 0.65);
+	 bottom: 0;
+	 left: 0;
+	 overflow: auto;
+	 position: fixed;
+	 right: 0;
+	 top: 0;
+	 z-index: 99999;
+	 animation: fadeIn 2s;
+
+}
+.scheduleTime .modal__container {
+	 background: #fff;
+	 border-radius: 5px;
+	 max-width: 100%;
+	 position: absolute;
+	 top: 11%;
+	 left: 31%;
+	 padding: 15px;
+	 width: 34%;
+	 max-height: 80%;
+	 min-height: 70%;
+
+	 text-align: center !important;
+	 overflow-y: scroll;
+}
+.scheduleTime .modal__title {
+	 font-size: 30px;
+	 font-weight: 600;
+	 margin-bottom: 20px;
+	 margin-top: 1px;;
+}
+.d-block{
+	display: block !important;
+}
+.d-none{
+	display: none !important;
+}
+ 
+.scheduleTime .date_block {
+    width: 100px;
+    height: auto;
+	border-radius: 7px;
+	
+    /* border: 1px solid  var(--light-gray); */
+    /* box-shadow: 0 8px 6px -6px  var(--light-gray); */
+}
+.date_block:focus{
+	background-color: var(--primary) !important;
+}
+.scheduleTime .digit {
+	cursor: pointer;
+    background-color: var(--rose-bud-light);
+	width: 88%;
+	height: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 2px solid var(--gray);
+	border-color: var(--white);
+	border-radius: 9px;
+	position: relative;
+    left: 3px;
+  
+}
+.slotsActive{
+	background-color: var(--theme-color) !important;
+	color: var(--white) !important;
+}
+
+.scheduleTime  div.digit>p {
+	margin: 17px auto;
+    font-size: 40px;
+    color: white;
+}
+.scheduleTime .days , .months{
+	font-size: 12px;
+	color: var(--white);
+}
+.scheduleTime .months{
+	position: relative;
+	top: -27px;
+	z-index: 9;
+}
+.scheduleTime .days{
+	position: relative;
+	top: 26px;
+	z-index: 9;
+}
+.scheduleTime  .wording {
+    
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scheduleTime  div.wording>p {
+   
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+.scheduleTime .div.wording>p ~ p {
+     
+    font-size: .80rem;
+    color: var(--primary);
+}
+.scheduleTime .time-slots{
+	display: flex;
+	/* padding:0px 25px !important; */
+    justify-content: space-between;
+}
+.scheduleTime .time-slot {
+	width: 94px !important;
+	margin-left: -4% !important;
+	padding: 2px 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	color:var(--gray);
+	font-size: 12px !important;
+	font-weight: 500;
+	margin-bottom: 12px;
+
+	/* padding: 7px 10px; */
+	background-color: var(--white);
+	transition: transform 100ms ease-out;
+	border: 1.2px solid var(--light-gray);
+}
+.scheduleTime .digit:hover{
+	border: 2px solid var(--gray);
+	border-color: var(--theme-color) !important;
+}
+.scheduleTime .time-slots button:hover {
+	background-color: var(--white);
+	border-color: var(--theme-color);
+}
+.scheduleTime .date_slots{
+	display: flex !important;
+	padding: 0px 27px;
+	padding-bottom: 17px;
+    margin: -5px 2px;
+	justify-content: space-between;
+}
+
+.activeTimeSlot{
+	border-color: var(--gray) !important;
+}
+.scheduleTime #rightArrow ,#leftArrow{
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .45rem;
+	font-size: 1rem;
+	border-radius: .55rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.scheduleTime #rightArrow{
+	background: #eaeaeabf !important;
+	position: absolute !important;
+	height: 41px !important;
+	width: 40px !important;
+	color: var(--gray) !important;
+}
+.scheduleTime #leftArrow{
+	background: #eaeaeabf !important;
+	position: absolute !important;
+	height: 41px !important;
+	width: 40px !important;
+	color: var(--gray) !important;
+}
+.scheduleTime #rightArrow{
+	right: -14% !important;
+}
+.scheduleTime #leftArrow{
+    left: -14% !important;
+}
+.scheduleTime #leftArrow span{
+	font-size: 14px !important;
+	color:var(--gray) !important;
+}
+
+.scheduleTime #rightArrow span{
+	font-size: 14px !important;
+	color:var(--gray) !important;
+}
+.scheduleTime #closeBtn{
+	position: relative;
+	left: 62%;
+	cursor: pointer;
+    top: 11%;
+	border: 0px white;
+	border-radius: 111px;
+	color:var(--black) !important;
+	z-index: 9;
+	transition: 0.2s;
+    transform: rotateX(-180deg);
+	
+}
+.scheduleTime #closeBtn:hover {
+	transition: 0.2s;
+    transform: rotateY(180deg);
+}
+.scheduleTime #scheduleShowing{
+	width: auto !important;
+	border-radius: 5px !important;
+}
+.scheduleTime .backBtnCls{
+	position: relative;
+    left: -43% !important;
+	cursor: pointer;
+}
+.scheduleTime p{
+	margin-bottom: .5rem !important;
+}
+.bookScheduleForm .form-control{
+
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	border-radius: 0px !important;
+	/* padding-top: 11px !important; */
+}
+.bookScheduleForm  label{
+	font-size: 13px !important;
+    position: relative;
+    top: 22px !important;
+	color: var(--secondary) !important;
+	left: 8px !important;
+}
+.bookScheduleForm .form-control:focus{
+	box-shadow: 0 0 0 .0rem #F5F5F5 !important;
+	border-color: var(--theme-color) !important;
+}
+.bookScheduleForm #message {
+    height: 90px !important;
+}
+.bookScheduleForm {
+	text-align:left !important;
+}
+.bookScheduleForm #scheduleBook{
+	color: var(--white) !important;
+	font-weight: inherit !important;
+	background-color: var(--theme-color-1) !important;
+	border: 1px solid var(--theme-color-light) !important;
+	font-weight: bold !important;
+	width: 100% !important;
+	font-size: 15px;		
+	padding: 12px;
+}
+.bookScheduleForm .input-areas{
+	margin-top: -16px !important;
+}
+.bookScheduleForm .sendBtnSection {
+    position: relative;
+    left: 52px !important;
+    top: 15px !important;
+	border-radius: 5px !important;
+	color:#fff !important;
+}
+.btn:disabled{
+	background-color: var(--theme-color) !important;
+	opacity: 0.6 !important;
+	font-weight: normal !important;
+}
+#closeBtn{
+	width: 14px !important;
+}
+.scheduleTime .validateMsg{
+	font-size: 14px !important;
+	color:var(--rose-bud) !important;
+}
+.time-slots .hiddenSlots button{
+	color: #ddd3d3 !important;
+}
+.time-slots .hiddenSlots{
+font-size: 12px !important;
+font-weight: 500;
+margin-bottom: 12px;
+pointer-events: none;
+}
+.time-slots .hiddenSlots button:hover{
+	border-color: var(--light-gray) !important;
+}
+
+.err-inp-msg {
+    color: var(--primary);
+    font-size: 14px !important;
+    font-weight: initial !important;
+ }
+
+ #mobile-view {
+    display: none !important;
+ }
+
+ @media (max-width: 600px) {
+    #mobile-view {
+       display: block !important;
+    }
+
+    #mobile-view .time-slot {
+       display: inline;
+    }
+
+    #desktop .desktpSlots {
+       display: none !important;
+    }
+
+    .time-slots {
+       display: none !important;
+    }
+
+    .scheduleTime .date_slots {
+       display: flex !important;
+       padding: 0px;
+       margin: 0px;
+       justify-content: space-between;
+    }
+
+    .scheduleTime .time-slot {
+       margin: 9px 7px;
+    }
+
+    .scheduleTime button:hover {
+       border-color: var(--primary) !important;
+    }
+
+    .scheduleTime #closeBtn {
+       float: right !important;
+       left: -5% !important;
+       right: 4% !important;
+    }
+
+    .scheduleTime .modal__container {
+       background: #fff;
+       border-radius: 5px;
+       max-width: 100%;
+       position: absolute;
+       top: 11%;
+       left: 0% !important;
+       padding: 15px;
+       width: 87%;
+       max-height: 80%;
+       min-height: 70%;
+       text-align: center !important;
+       overflow-y: scroll;
+       min-width: 100%;
+       overflow-x: hidden;
+    }
+
+    .sendBtnSection {
+       position: relative;
+       left: 0% !important;
+       top: 15px !important;
+
+    }
+
+    .bookScheduleForm .sendBtnSection {
+       position: relative;
+       left: 0 !important;
+       top: 15px !important;
+    }
+
+ }
+ .addEventBtn{
+	padding: .5rem .5rem !important;
+ }
+ .common-btn:hover{
+ 	color: white!important;
+ }

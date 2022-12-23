@@ -1,0 +1,322 @@
+ .reactModal .btn {
+   padding: 5px 10px;
+   cursor: pointer;
+ }
+
+ .reactModal {
+   position: fixed !important;
+   z-index: 99999;
+   top: 2px !important;
+   width: 100% !important;  
+ }
+ /*  */
+.reactModal .model-container{
+  background-color: #0000008a;
+  padding-top: 38px;
+  padding-bottom: 50px;
+  height: 100%;
+}
+ .slideContainer {
+   position: absolute;
+   top: 0%;
+   right: 0%;
+   background: #fff;
+   width: 40%;
+   height: 98%;
+   overflow: scroll;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+
+ .reactModal .modal {
+   position: relative;
+   /* width: 81rem; */
+   /* height: 100rem; */
+   height: 100%;
+   display: none;
+   background: white;
+   opacity: 1;
+   width: 86%;
+   margin: 0px auto;
+   border-radius: 0.3rem;
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+   padding: 0px;
+   height: 100vh;
+ }
+ .height-100{
+  height: 100%;
+ }
+ .d-block {
+   display: block;
+ }
+
+ .reactModal .modal-header {
+   display: flex;
+   flex-shrink: 0;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 1rem;
+   border-bottom: 1px solid #dee2e6;
+   border-top-left-radius: calc(.3rem - 1px);
+   border-top-right-radius: calc(.3rem - 1px);
+ }
+
+ .reactModal .modal-header2 {
+   display: flex;
+   flex-shrink: 0;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 1rem;
+   border-bottom: 1px solid #dee2e6;
+   border-top-left-radius: calc(.3rem - 1px);
+   border-top-right-radius: calc(.3rem - 1px);
+ }
+
+ .reactModal .modal-body {
+   overflow-y: auto;
+ }
+
+ .reactModal .modal-body {
+   position: relative;
+   flex: 1 1 auto;
+   padding: 0px;
+   /*padding: 5px 13px 0px 0px !important;*/
+   /*padding-top: 50px!important;*/
+ }
+
+ .reactModal .modal i {
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+   padding: 0 1rem;
+   font-size: 2.5rem;
+   cursor: pointer;
+ }
+
+ .modal-header1 .closeBtn {
+   position: absolute;
+   text-align: end;
+   float: right;
+   z-index: 999;
+   top: 14px;
+   right: 25px;
+   cursor: pointer;
+   font-size: 16px;
+
+ }
+
+ /* Style the tab */
+ .reactModal .tab {
+   overflow: hidden;
+   background-color: #fff;
+   width: 100%;
+   margin-bottom: 1px;
+ }
+
+ /* Style the buttons inside the tab */
+ .reactModal .tab button {
+   background-color: inherit;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+   transition: 0.3s;
+   font-size: 17px;
+   transition: all ease-in-out 0.6s;
+   text-decoration: none;
+   color: var(--secondary);
+   font-weight: inherit;
+
+ }
+
+ /* Change background color of buttons on hover */
+ .reactModal .tab button:hover {
+   background-color: var(--rose-bud-light);
+   color: #fff;
+ }
+
+ /* Create an active/current tablink class */
+ .reactModal .tab button.active {
+   background-color: var(--theme-color);
+   color: #fff;
+ }
+
+ .secondHeader {
+   padding: 7px 16px;
+   display: flex;
+   overflow: hidden;
+   background-color: #fff;
+   width: 100%;
+ }
+
+ /* Style the tab content */
+ .reactModal .tabcontent {
+   /*padding: 6px 12px;*/
+   border-top: none;
+ }
+
+ /* Style the close button */
+ .reactModal .topright {
+   float: right;
+   cursor: pointer;
+   font-size: 28px;
+ }
+
+ .scheduleBtn {
+   position: relative;
+   background-color: inherit;
+   border: none;
+   left: 50px;
+   outline: none;
+   cursor: pointer;
+   padding: 0px 14px;
+   transition: 0.3s;
+   font-size: 17px;
+   transition: all ease-in-out 0.6s;
+   text-decoration: none;
+   border: 1px solid var(--rose-bud);
+   color: #707070;
+ }
+
+ .addrText {
+   margin: 5px;
+   color: var(--secondary);
+ }
+
+ .hideCls {
+   display: none;
+ }
+
+ .showCls {
+   display: block;
+ }
+
+ #mapTab {
+   background-color: #fff;
+ }
+
+ .mapDetail {
+   height: 80vh;
+ }
+
+ .nearBySection .menu-one {
+   display: flex;
+   border: 2px solid #d7d7d7;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+ }
+
+ .nearBySection .menu-left {
+   display: flex;
+   align-items: center;
+ }
+
+ .nearBySection .menu-left img {
+   width: 28%;
+   height: 123px;
+   min-width: 100px;
+   margin-right: 14px;
+   margin-bottom: 0px;
+ }
+
+ .nearBySection a {
+   transition: all ease-in-out 0.5s;
+   text-decoration: none;
+ }
+
+ .nearBySection .menu-text-left span {
+  font-size: 12px;
+  color: #bebebe;
+  line-height: normal;
+  display: block;
+  padding: 2px;
+ }
+
+ .nearBySection .menu-text-left p {
+   font-size: 12px;
+   color: #bebebe;
+   line-height: normal;
+ }
+
+ .nearBySection .imageHold {
+   width: 100px;
+   height: 100px;
+ }
+
+ .slideContainer #rightArrow {
+   width: 20px !important;
+   background-color: #ffffff !important;
+   height: 35px !important;
+ }
+
+ .slideContainer .listContainers {
+   padding: 0% 3%;
+ }
+
+ .slideContainer #leftArrow {
+   width: 30px !important;
+   background-color: #ffffff !important;
+   height: 35px;
+ }
+
+ .slideContainer .list_block {
+   display: block;
+   padding: 10px;
+ }
+
+ .menu-list span:hover {
+   cursor: pointer;
+ }
+
+ .slideContainer .list_block p {
+   margin-bottom: 0rem;
+ }
+
+ .menuActive span {
+   border-bottom: 2px solid var(--theme-color);
+ }
+
+ .reactModal .modal::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.reactModal .modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.reactModal .modal::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.reactModal .modal::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@media only screen and (max-width: 800px) {
+    .slideContainer{
+      top: 51%!important;
+      width: 100%!important;
+      height: 100%;
+      z-index: 99;
+  }
+  .reactModal .modal{
+    width: 98%;
+  }
+  .reactModal .tab button{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .btn-close{
+    top: 1%!important;
+  }
+  .reactModal .modal{
+    height: auto!important;
+  }
+  .modal-header .btn-close{
+    margin: 0px;
+  }
+}

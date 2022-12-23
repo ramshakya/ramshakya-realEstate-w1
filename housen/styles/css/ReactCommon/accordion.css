@@ -1,0 +1,126 @@
+/*  */
+.accorionSection{
+  z-index: 99;
+position: absolute;
+width:65%;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.accorionSection  .button {
+  background: #ccffff;
+  cursor: pointer;
+  font-size: 20pt;
+  padding: 16px;
+  width: 100%;
+}
+.accorionSection .content {
+  background: rgb(238, 238, 238);
+  padding: 0 16px;
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.8s ease-in-out;
+  font-size: 18px;
+  margin: 0 -15px;
+}
+.accorionSection #state:checked ~ .content {  
+  padding: 20px 25px 47px;
+  max-height: 100rem;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 5px;
+  padding: 16px;
+  margin: 0px;
+
+}
+.accorionSection a.close-form {
+  display: block;
+  text-align: right;
+  /* margin-bottom: 22px; */
+}
+.accorionSection .form-btns{
+  margin-top: 11px;margin-bottom: -11px;
+}
+.font12{
+  font-size:12px !important;
+}
+.font14{
+  font-size:14px !important;
+}
+.d-flex{
+  display: flex !important;
+}
+.drop-form{
+  background-color: #ECECEC;
+}
+.fromController{
+  background-color: #e9ecef !important;
+  border-radius: 0px !important;
+}
+.fromController :focus{
+  background-color: #e9ecef !important;
+  border-radius: 0px !important;
+}
+.textEnd{
+  text-align: end;
+}
+.boderRightRadius0{
+  border-right: 0px !important;
+}
+.boderLeftRadius0{
+  border-left: 0px !important;
+}
+.accorionSection .form-btns {
+  display: flex;
+  justify-content: center;
+}
+.accorionSection .value-box {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 17px;
+  height: 49px;
+  line-height: 23px;
+  border-radius: 30px;
+  background-color: #ECECEC;
+  align-items: center;
+  /* padding: 0 10px; */
+}
+.accorionSection .form-btns a {
+  border: 1px solid #777;
+  margin: 0 20px;
+  border-radius: 1px;
+  color:var(--secondary);
+  font-size: 17px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 9px;
+}
+.fontSize13{
+  font-size: 13px !important;
+}
+
+.fontSize15{
+  font-size: 15px !important;
+}
+.colsRows{
+  display: flex !important;
+  margin-left:5px;
+ 
+}
+ 
+.focusCls{
+  box-shadow: 0 0 0 0rem rgba(206, 199, 199, 0) !important;
+  border-color: #ececec;
+}
+#final_mortgagae_amount{
+	margin-left:10px !important;
+  font-weight: normal !important;
+  font-size: 17px !important;
+  color: var(--gray);
+}
+#down_payment_select ,#year_select{
+  color: var(--secondary);
+}
+.accorionSection .form-control {
+  border-radius: 0px !important;
+}
